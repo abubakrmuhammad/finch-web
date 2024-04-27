@@ -32,10 +32,12 @@ bun run start
 - [x] Setup Import aliases
 - [X] Setup Folder Structure
 - [x] Make it deploy (Render)
-- [] Setup Database
+- [x] Setup Environment Variables (t3-env)
+- [x] Setup Database
 - [] Setup Authentication
 - [] Setup Documentation (Swagger)
 - [] Setup Logging
+- [] Setup Drizzle Logger
 - [] Setup Testing
 - [] Error Management (Sentry)
 - [] Analytics (PostHog)
