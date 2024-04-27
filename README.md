@@ -28,6 +28,8 @@ bun run start
 ## TODO
 
 - [x] Setup Biome (linter, formatter, etc.)
+- [x] Setup Pre-commit hooks (lint, format)
+- [x] Setup Import aliases
 - [] Setup Folder Structure
 - [] Make it deploy (Render)
 - [] Setup Database
