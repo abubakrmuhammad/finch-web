@@ -37,6 +37,7 @@ bun run start
 - [] Setup Authentication
 - [] Setup Documentation (Swagger)
 - [] Setup Logging
+- [] Setup Drizzle Logger
 - [] Setup Testing
 - [] Error Management (Sentry)
 - [] Analytics (PostHog)
