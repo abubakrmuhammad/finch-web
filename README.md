@@ -31,7 +31,7 @@ bun run start
 - [x] Setup Pre-commit hooks (lint, format)
 - [x] Setup Import aliases
 - [X] Setup Folder Structure
-- [] Make it deploy (Render)
+- [x] Make it deploy (Render)
 - [] Setup Database
 - [] Setup Authentication
 - [] Setup Documentation (Swagger)
