@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "start": "bun run src/index.ts",
+    "lint": "bunx @biomejs/biome lint --apply .",
+    "format": "bunx @biomejs/biome format --write ."
+  },
+  "dependencies": {
+    "hono": "^4.2.8"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.7.1",
+    "@types/bun": "latest"
+  }
+}
