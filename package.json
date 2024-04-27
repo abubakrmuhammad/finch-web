@@ -8,8 +8,10 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@t3-oss/env-core": "^0.10.1",
     "consola": "^3.2.3",
-    "hono": "^4.2.8"
+    "hono": "^4.2.8",
+    "zod": "^3.23.4"
   },
   "devDependencies": {
     "@biomejs/biome": "1.7.1",
