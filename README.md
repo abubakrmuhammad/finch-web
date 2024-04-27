@@ -33,7 +33,7 @@ bun run start
 - [X] Setup Folder Structure
 - [x] Make it deploy (Render)
 - [x] Setup Environment Variables (t3-env)
-- [] Setup Database
+- [x] Setup Database
 - [] Setup Authentication
 - [] Setup Documentation (Swagger)
 - [] Setup Logging

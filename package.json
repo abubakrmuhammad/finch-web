@@ -4,7 +4,6 @@
     "start": "bun run src/server.ts",
     "lint": "bunx @biomejs/biome lint --apply .",
     "format": "bunx @biomejs/biome format --write .",
-    "db:generate": "drizzle-kit generate:pg --schema ./src/db/schema.ts --out=./src/db/migrations",
     "db:push": "drizzle-kit push:pg",
     "db:studio": "drizzle-kit studio",
     "lint-staged": "lint-staged",
@@ -22,8 +21,10 @@
   "devDependencies": {
     "@biomejs/biome": "1.7.1",
     "bun-types": "latest",
+    "bun-types": "latest",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
+    "pg": "^8.11.5",
     "typescript": "^5.4.5"
   },
   "lint-staged": {
