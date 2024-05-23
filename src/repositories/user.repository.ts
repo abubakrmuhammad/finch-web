@@ -1,13 +1,11 @@
 import db from "~/db";
-import { users } from "~/db/schema";
+import { usersTable } from "~/db/schema";
 
 class UsersRepository {
-  async createUser() {
-    db.insert(users).values({
-      email: "test",
-      password: "test",
-      role: "super_admin",
-    });
+  async createUser(user: typeof usersTable.$inferInsert) {
+    const newUser = await db.insert(usersTable).values(user).returning();
+
+    return newUser[0];
   }
 }
 

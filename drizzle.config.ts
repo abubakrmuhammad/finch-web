@@ -3,8 +3,10 @@ import dbUtils from "~/utils/db.utils";
 
 export default {
   schema: "./src/db/schema",
-  driver: "pg",
+  dialect: "postgresql",
   dbCredentials: {
-    connectionString: dbUtils.createPgUrlFromEnv(),
+    url: dbUtils.createPgUrlFromEnv(),
   },
+  verbose: true,
+  strict: true,
 } satisfies Config;

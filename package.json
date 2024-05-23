@@ -4,15 +4,16 @@
     "start": "bun run src/server.ts",
     "lint": "bunx @biomejs/biome lint --apply .",
     "format": "bunx @biomejs/biome format --write .",
-    "db:push": "drizzle-kit push:pg",
+    "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
     "lint-staged": "lint-staged",
     "prepare": "husky"
   },
   "dependencies": {
+    "@hono/zod-validator": "",
     "@t3-oss/env-core": "^0.10.1",
     "consola": "^3.2.3",
-    "drizzle-kit": "^0.20.17",
+    "drizzle-kit": "^0.21.4",
     "drizzle-orm": "^0.30.9",
     "hono": "^4.2.8",
     "postgres": "^3.4.4",

@@ -30,7 +30,7 @@ bun run start
 - [x] Setup Biome (linter, formatter, etc.)
 - [x] Setup Pre-commit hooks (lint, format)
 - [x] Setup Import aliases
-- [X] Setup Folder Structure
+- [x] Setup Folder Structure
 - [x] Make it deploy (Render)
 - [x] Setup Environment Variables (t3-env)
 - [x] Setup Database
