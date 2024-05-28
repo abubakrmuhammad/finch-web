@@ -9,6 +9,24 @@ class AuthService {
 
     return newUserWithoutPassword;
   }
+
+  async login(userInfo: { email: string; password: string }) {
+    const { email, password } = userInfo;
+
+    const user = await userRepository.getUserByEmail(email);
+
+    if (!user) {
+      throw new Error("User not found");
+    }
+
+    if (userInfo.password !== password) {
+      throw new Error("Incorrect password");
+    }
+
+    const { password: _, ...userWithoutPassword } = userInfo;
+
+    return userWithoutPassword;
+  }
 }
 
 export default new AuthService();
